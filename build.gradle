@@ -4,7 +4,6 @@ buildscript {
     }
     repositories {
         mavenLocal()
-        maven { url "http://maven.dev.sh.ctripcorp.com:8081/nexus/content/groups/public" }
         maven { url "https://repo.grails.org/grails/core" }
     }
     dependencies {
@@ -31,7 +30,6 @@ ext {
 
 repositories {
     mavenLocal()
-    maven { url "http://maven.dev.sh.ctripcorp.com:8081/nexus/content/groups/public" }
     maven { url "https://repo.grails.org/grails/core" }
 }
 
