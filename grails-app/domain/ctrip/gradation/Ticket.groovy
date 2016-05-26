@@ -7,6 +7,8 @@ class Ticket {
 
     int tid
     int buildId
+    int buildRefId
+    String commitId
     String buildUrl
     Date triggerTime
     String platform
